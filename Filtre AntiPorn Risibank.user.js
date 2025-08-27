@@ -89,7 +89,7 @@
                 margin-top: 10px;
             }
             #risifilter-menu-modal button:hover {
-                background: #4752c4;
+                background: #f7734a;
             }
             #risifilter-keywords-list {
                 list-style: none;
@@ -121,7 +121,7 @@
                 transition: color 0.2s;
             }
             #risifilter-open-menu-btn:hover svg {
-                color: #FFA500;
+                color: #f7734a;
             }
         `);
 
