@@ -4,6 +4,8 @@
 // @version      1.0
 // @description  Filtre les stickers indésirables par mots-clés.
 // @author       moyaona
+// @downloadURL https://github.com/moyaona/Filtre-AntiPorn-Risibank/raw/refs/heads/main/Filtre%20AntiPorn%20Risibank.user.js
+// @updateURL https://github.com/moyaona/Filtre-AntiPorn-Risibank/raw/refs/heads/main/Filtre%20AntiPorn%20Risibank.user.js
 // @match        https://www.jeuxvideo.com/forums/*
 // @match        https://risibank.fr/embed*
 // @grant        GM_setValue
@@ -187,7 +189,7 @@
         function saveAndClose() {
             const keywordsToSave = Array.from(keywordList.querySelectorAll('li')).map(li => li.firstChild.textContent);
             GM_setValue(STORAGE_KEY, keywordsToSave);
-            alert('Mots-clés sauvegardés !\n\nUn rechargement de la page peut être nécessaire.');
+            alert('Mots-clés sauvegardés !\n\nVeuillez recharger la page.');
             closeMenu();
         }
 
