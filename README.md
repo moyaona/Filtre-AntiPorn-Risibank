@@ -5,4 +5,4 @@ Ajoute un menu contextuel à droite des options Risibank pour ajouter des mots-c
 **Les mots-clés filtrés correspondent aux mots-clés ajoutés par les contributeurs en description de leurs stickers sur Risibank.**
 
 ## Installation
-[Ahient(https://github.com/moyaona/Filtre-AntiPorn-Risibank/raw/refs/heads/main/Filtre%20AntiPorn%20Risibank.user.js)]
+Ahient[(https://github.com/moyaona/Filtre-AntiPorn-Risibank/raw/refs/heads/main/Filtre%20AntiPorn%20Risibank.user.js)]
